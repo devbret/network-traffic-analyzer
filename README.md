@@ -12,8 +12,7 @@ A traffic analyzer built with Python which uses Scapy to capture network packets
 
 - **Python 3.6+**
 - **Administrative Privileges:** Running the script usually requires elevated privileges to capture packets.
-- **Tkinter:** Required for matplotlib's interactive backend. On Debian/Ubuntu-based systems, install it using:
-
+- **Tkinter:** Required for matplotlib's interactive backend. On Debian/Ubuntu-based systems, install Tkinter using:
   ```
   sudo apt-get install python3-tk
   ```
@@ -42,7 +41,7 @@ A traffic analyzer built with Python which uses Scapy to capture network packets
 
 ## Usage
 
-Run the application using the virtual environment’s Python interpreter. Since capturing packets typically requires administrative privileges, run the script with sudo:
+Run the application using the virtual environment’s Python interpreter. Since capturing packets typically requires administrative privileges, start the script with sudo:
 
 ```
 sudo ./venv/bin/python3 app.py
@@ -52,17 +51,19 @@ The script will capture fifty packets by default. Once captured, the program dis
 
 ## Troubleshooting
 
-**ModuleNotFoundError: No module named 'scapy':**
+Below you will find two common errors and how to resolve each.
 
-Ensure you are using the virtual environment's Python interpreter.
+1. **ModuleNotFoundError: No module named 'scapy':**
 
-**Tkinter Not Found:**
+   Ensure you are using the virtual environment's Python interpreter.
 
-Install Tkinter using your system's package manager:
+2. **Tkinter Not Found:**
 
-```
-sudo apt-get install python3-tk
-```
+   Install Tkinter using your system's package manager:
+
+   ```
+   sudo apt-get install python3-tk
+   ```
 
 ## Requirements
 
