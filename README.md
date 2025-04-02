@@ -1,5 +1,7 @@
 # Network Traffic Analyzer
 
+![Screenshot of a pie graph representing precentages of different packet protocols.](https://hosting.photobucket.com/bbcfb0d4-be20-44a0-94dc-65bff8947cf2/b3e83a2b-6d4d-4b62-b053-105283837dd4.png)
+
 A traffic analyzer built with Python which uses Scapy to capture network packets and matplotlib to visualize the distribution of protocols.
 
 ## Features

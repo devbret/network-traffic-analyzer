@@ -27,7 +27,7 @@ def visualize_data():
 
     plt.figure(figsize=(6,6))
     plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90)
-    plt.title("Network Traffic Analysis by Protocol")
+    plt.title("Network Traffic Analysis by Protocol", pad=23)
     plt.axis('equal')
     plt.show()
 
